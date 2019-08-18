@@ -1,0 +1,12 @@
+.z {
+    z-index: 99
+}
+#background {
+    width: 50%; 
+    height: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
+}
